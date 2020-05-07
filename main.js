@@ -4,7 +4,7 @@ var http = require('http');
 // configure our HTTP server
 var server = http.createServer(function (request, response) {
   response.writeHead(200, {"Content-Type": "text/plain"});
-  response.end("Hello mahesh\n");
+  response.end("Hello Welcome to Jenkins Lab\n");
 });
 
 // listen on localhost:8000
