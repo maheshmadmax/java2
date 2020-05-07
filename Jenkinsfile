@@ -35,6 +35,6 @@ node {
     }
     stage('Run Container') {
     /* Run docker images on the server*/
-    sh label: '', script: 'docker run -p 8000:8000 localhost:5000/getintodevops/hellonode'
+    sh label: '', script: 'docker run -p 8000:8000 localhost:5000/getintodevops/hellonode &'
     }
 }
